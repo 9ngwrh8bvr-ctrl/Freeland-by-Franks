@@ -1,0 +1,5 @@
+std = "roblox_lite"
+
+[rules]
+shadowing = "allow"
+unused_variable = "warn"

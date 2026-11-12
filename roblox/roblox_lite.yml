@@ -1,0 +1,31 @@
+# Vereinfachte Roblox-Standardbibliothek für selene (offline nutzbar).
+# Mit Internet besser: `selene generate-roblox-std` und std = "roblox".
+base: luau
+name: roblox_lite
+globals:
+  game: {any: true}
+  workspace: {any: true}
+  script: {any: true}
+  Instance: {any: true}
+  Enum: {any: true}
+  Vector3: {any: true}
+  Vector2: {any: true}
+  CFrame: {any: true}
+  Color3: {any: true}
+  ColorSequence: {any: true}
+  NumberSequence: {any: true}
+  NumberSequenceKeypoint: {any: true}
+  NumberRange: {any: true}
+  UDim: {any: true}
+  UDim2: {any: true}
+  TweenInfo: {any: true}
+  RaycastParams: {any: true}
+  task: {any: true}
+  typeof: {any: true}
+  tick: {any: true}
+  warn: {any: true}
+  read_file: {any: true}
+  is_dir: {any: true}
+  list_dir: {any: true}
+  compile_check: {any: true}
+  load_module: {any: true}

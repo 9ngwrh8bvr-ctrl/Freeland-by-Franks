@@ -1,0 +1,3 @@
+-- Ersetzt das Standard-Regenerationsskript von Roblox.
+-- Lebenspunkte und Regeneration werden vollständig vom Server
+-- (EntityService) gesteuert.

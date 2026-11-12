@@ -1,0 +1,40 @@
+{
+  "name": "Freeland",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Assets": {
+        "$className": "Folder",
+        "Monsters": {
+          "$className": "Folder"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      },
+      "StarterCharacterScripts": {
+        "Health": {
+          "$path": "src/character/Health.server.luau"
+        }
+      }
+    },
+    "TextChatService": {
+      "$properties": {
+        "CreateDefaultTextChannels": false,
+        "CreateDefaultCommands": false
+      }
+    }
+  }
+}
